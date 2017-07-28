@@ -27,11 +27,24 @@
                                 <color key="textColor" red="0.31250419616646496" green="1" blue="0.76783199626597276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHy-Hp-j7L">
+                                <rect key="frame" x="157" y="114" width="62" height="34"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Go to 2">
+                                    <color key="titleColor" red="0.56359748202015558" green="1" blue="0.22446934234960692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1wt-tI-dty" kind="show" id="AWH-4q-2nl"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.92106850514262806" green="1" blue="0.96302476866750952" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="GVp-o0-jxO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jj7-pG-T4I"/>
                             <constraint firstItem="GVp-o0-jxO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="oKS-zS-kDt"/>
+                            <constraint firstItem="qHy-Hp-j7L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pNw-Ip-3hP"/>
+                            <constraint firstItem="qHy-Hp-j7L" firstAttribute="top" secondItem="GVp-o0-jxO" secondAttribute="bottom" constant="52.5" id="w0Q-tX-KtT"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -56,17 +69,30 @@
                                 <color key="textColor" red="0.18424790289798865" green="0.94011163642207785" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKT-5F-ceh">
+                                <rect key="frame" x="148" y="113" width="78" height="34"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Back to 1">
+                                    <color key="titleColor" red="1" green="0.70488732007070665" blue="0.2986332827984397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="5Uj-DF-0Di"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.92107191206902783" green="1" blue="0.88731009036475006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="sKT-5F-ceh" firstAttribute="top" secondItem="de2-41-W8p" secondAttribute="bottom" constant="51.5" id="FQB-DO-ZFo"/>
                             <constraint firstItem="de2-41-W8p" firstAttribute="top" secondItem="ace-8b-SVb" secondAttribute="bottom" constant="8" id="Fas-cK-rii"/>
+                            <constraint firstItem="sKT-5F-ceh" firstAttribute="centerX" secondItem="PCl-uo-VBZ" secondAttribute="centerX" id="edG-By-clI"/>
                             <constraint firstItem="de2-41-W8p" firstAttribute="centerX" secondItem="PCl-uo-VBZ" secondAttribute="centerX" id="kpv-9q-4Qs"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mLf-ew-KRN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="713" y="36"/>
+            <point key="canvasLocation" x="778" y="36"/>
         </scene>
     </scenes>
 </document>
